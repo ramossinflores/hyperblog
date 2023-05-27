@@ -4,9 +4,28 @@ body{
     color: #333;
 }
 
+#cabecera{
+    background: #33A;
+    color: white;
+    font-weight: bold;
+    box-shadow: 25px  rgba(0,0,0,1);    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline{
+    font-weight: normal;
+    font-size: .8em;
+    padding: 0 0 0 1em;
+}
 #post{
     width: 70%;
     padding: 1em;
     text-align: left;
     border: 2px solid rgb(174, 173, 173);
+    margin: 0 auto;
 }
+
+#post h1{
+    font-size: 20px;
+}
+
